@@ -157,7 +157,7 @@ root.bind("<KeyPress>", start_application)
 def build_ui():
     global content_frame, job_title_var, education_level_var, age_var
 
-    # Initialize Tkinter variables AFTER root is created
+    # Initialize Tkinter variables after root is created
     job_title_var = tk.StringVar()
     education_level_var = tk.StringVar()
     age_var = tk.StringVar()
