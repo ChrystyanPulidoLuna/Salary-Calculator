@@ -1,0 +1,6 @@
+# Ignore virtual environment
+venv/
+
+# Ignore CSV and log files
+*.csv
+*.log
